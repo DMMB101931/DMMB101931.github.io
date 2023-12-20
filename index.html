@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Quizlet</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!--dito ko nilagay ang bagong code for logo -->
+<div class="container">
+    <div id="login" class="login">
+      <img src="logoquiz.jpeg" alt="Quizlet Logo" id="quizletLogo">
+      <h2><FONT COLOR="#22ceba">Infomatics&nbsp;</FONT> <i class="fa-solid fa-school fa-bounce" style="color: #1fb299;"></i></h2>
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+        <button onclick="authenticate()"><strong>Login</strong></button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a href="about.html"><strong>About Us</strong></a><br>
+        <a href="conditions.html"><strong>Terms and Conditions</strong></a>
+    </div>
+   
+<!--ito end nya -->
+
+
+<!-- ito ay para sa categories at about us policy -->
+      <div id="categories" class="categories" style="display: none;">
+        <h2> <FONT COLOR="#47c918"> Choose Category</FONT> <i class="fa-solid fa-splotch fa-beat-fade" style="color: #2c511f;"></i> </h2>
+        <button onclick="selectCategory('HTML')">HTML <i class="fa-brands fa-html5 fa-beat-fade" style="color: #d04e16;"></i> </button>
+        <button onclick="selectCategory('CSS')">CSS <i class="fa-brands fa-css3-alt fa-beat-fade" style="color: #1655c0;"></i> </button>
+        <button onclick="selectCategory('JavaScript')">JavaScript <i class="fa-brands fa-js fa-beat-fade" style="color: #decc02;"></i> </button>
+        <script src="https://kit.fontawesome.com/b56f96c550.js" crossorigin="anonymous"></script>
+      </div>
+<!-- end para sa categories at about us policy -->
+
+    <div id="flashcard" class="flashcard" style="display: none;">
+      <div id="card" class="card">
+        <div class="term" id="term"></div>
+        <div class="meaning" id="meaning"></div>
+      </div>
+      
+      <!-- the back/next button -->
+      <button id="backButton" onclick="goBack()">Back</button>
+      <button id="nextBtn" onclick="nextCard()">Next</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/b56f96c550.js" crossorigin="anonymous"></script>
+</body>
+</html>
+   
+
+
+
+

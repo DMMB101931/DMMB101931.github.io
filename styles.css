@@ -1,0 +1,153 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(53, 110, 123);
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  #flashcard {
+    background-color: rgb(47, 170, 117);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(253, 251, 251, 0.1);
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #bbff00;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgb(221, 221, 221);
+  }body {
+    font-family: Arial, sans-serif;
+    margin: 0;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(36, 73, 84);
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .flashcard {
+    background-color: rgb(43, 116, 148);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(253, 251, 251, 0.1);
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #bbff00;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgb(221, 221, 221);
+  }
+
+/*ito yung mga pictures and other design */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('leaves.jpeg'); /* Add your background image URL */
+    background-size: cover;
+    background-position: center;
+    border: 10px solid #3498db; /* Set border color */
+  }
+  
+  .container {
+    text-align: center;
+    background-color: rgba(40, 115, 169, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .login form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .categories button,
+  .meaning {
+    font-size: 18px; /* Adjust text size */
+  }
+  
+  .term {
+    font-size: 18px;
+    font-weight: bold; /* Bold term */
+  }
+  
+  .flashcard {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card {
+    border: 2px solid #45a049; /* Set border color for the card */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #bbff00;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px; /* Add margin for spacing */
+  }
+  
+  button:hover {
+    background-color: rgb(221, 221, 221);
+  }
+
+  /*ito yung code para sa log in logo*/
+  #login {
+    text-align: center;
+  }
+
+  #quizletLogo {
+    width: 90px; /* Adjust the width as needed */
+  }
